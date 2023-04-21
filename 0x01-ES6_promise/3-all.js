@@ -1,4 +1,4 @@
-import { uploadphoto, createUser } from './utils';
+import { uploadPhoto, createUser } from './utils';
 
 export default function handleProfileSignup() {
   let firstName;
