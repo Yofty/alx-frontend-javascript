@@ -3,11 +3,9 @@ export default function taskBlock(trueOrFalse) {
   const task2 = true;
 
   if (trueOrFalse) {
-    // eslint-disable-nex-line
-    const task = true;
-    // eslint-disable-next-line
-    const task2 = false;
-    return [task, task2];
+    const newtask = true;
+    const newtask2 = false;
+    return [newtask, newtask2];
   }
 
   return [task, task2];
